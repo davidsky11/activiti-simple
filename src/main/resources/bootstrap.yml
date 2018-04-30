@@ -1,0 +1,9 @@
+spring:
+  profiles: default
+  application:
+    name: activiti
+
+logging:
+  level:
+    org.springframework.web: debug
+    com.mybatis: ERROR
